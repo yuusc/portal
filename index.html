@@ -3,12 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ポータル</title>
+    <title>YUUSC</title>
     <link rel="stylesheet" type="text/css" href="./style/loader.css">
     <link rel="stylesheet" type="text/css" href="./style/main.css">
     <link rel="stylesheet" type="text/css" href="./style/grid.css">
     <link rel="stylesheet" type="text/css" href="./style/hover.css">
     <script src="./script/loader.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMGJC6DR8L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TMGJC6DR8L');
+    </script>
 </head>
 
 <body>
@@ -23,75 +36,120 @@
             <div class="sk-cube sk-cube7"></div>
             <div class="sk-cube sk-cube8"></div>
             <div class="sk-cube sk-cube9"></div>
+            <div class="status">NowLoading...</div>
         </div>
     </div>
     <main>
-        <h1>YUUSCのページ</h1>
-
+        <h1>YUUSCの部屋</h1>
         </br>
-        <h2>作品</h2>
-        <div class="parent">
-            <div class="child1">
-                <figure class="hover-parent">
-                    <a href="https://yuusc.github.io/WebVRTutorial/Build/"><img class="figure-img" src="./images/WebVR.png">
-                        <figcaption class="hover-mask">
-                            <h5>C#(Blender+Unity)</h5>
-                            </br>WebVRを使用した作品です．</br>ITF-2を自由に触ることが出来ます．
-                        </figcaption>
-                    </a>
-                </figure>
+        <div class="section-parent">
+            <div class="section">
+                <h2>作品（個人）</h2>
+                <div class="parent">
+                    <div class="child1">
+                        <figure class="hover-parent">
+                            <a href="https://yuusc.github.io/WebVRTutorial/Build/"><img class="figure-img" src="./images/WebVR.png">
+                                <figcaption class="hover-mask">
+                                    <h5>C#(Blender+Unity)</h5>
+                                    </br>WebVRを使用した作品です．</br>ITF-2を自由に触ることが出来ます．
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="child2">
+                        <figure class="hover-parent">
+                            <a href="https://yuusc.github.io/tetris/"><img class="figure-img" src="./images/tetris.png">
+                                <figcaption class="hover-mask">
+                                    <h5>HTML, CSS, JavaScript</h5>
+                                    </br>テトリス風のゲームです．
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="child3">
+                        <figure class="hover-parent">
+                            <a href="https://yuusc.github.io/ITFGL/"><img class="figure-img" src="./images/WebGL.png">
+                                <figcaption class="hover-mask">
+                                    <h5>HTML, CSS, JavaScript</h5>
+                                    </br>WebGLを使用した作品です．</br>ITF-2を自由に触ることが出来ます．
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="child4">
+                        <figure class="hover-parent">
+                            <a href="https://yuusc.github.io/desktop_clock/"><img class="figure-img" src="./images/clock.png">
+                                <figcaption class="hover-mask">
+                                    <h5>HTML, CSS, JavaScript</h5>
+                                    </br>筑波大学用の時間割ツールです．
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="child5">
+                        <figure class="hover-parent">
+                            <a href="https://github.com/yuusc/processing_study/tree/master/bookshelf"><img class="figure-img" src="./images/bookshelf.png">
+                                <figcaption class="hover-mask">
+                                    <h5>Proccesing, Java</h5>
+                                    </br>書籍管理システムです．</br>SQLを使用しています．
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="child6">準備中</div>
+                </div>
             </div>
-            <div class="child2">
-                <figure class="hover-parent">
-                    <a href="https://yuusc.github.io/ITFGL/"><img class="figure-img" src="./images/WebGL.png">
-                        <figcaption class="hover-mask">
-                            <h5>HTML, CSS, JavaScript</h5>
-                            </br>WebGLを使用した作品です．</br>ITF-2を自由に触ることが出来ます．
-                        </figcaption>
-                    </a>
-                </figure>
+            <div class="section">
+                <h2>私について</h2>
+                <img src="./images/icon.jpg" style="width: 20%;" class="subsection">
+                <div class="subsection">
+                    <p>これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです。これは、ダミーです。</p>
+                </div>
+                <div class="subsection">
+                    <div class="parent">
+                        <div class="child1">
+                            <img src="error.jpg">
+                        </div>
+                        <div class="child2">
+                            <img src="error.jpg">
+                        </div>
+                        <div class="child3">
+                            <img src="error.jpg">
+                        </div>
+                        <div class="child4">
+                            <img src="error.jpg">
+                        </div>
+                        <div class="child5">
+                            <img src="error.jpg">
+                        </div>
+                        <div class="child6">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="child3">
-                <figure class="hover-parent">
-                    <a href="https://yuusc.github.io/tetris/"><img class="figure-img" src="./images/tetris.png">
-                        <figcaption class="hover-mask">
-                            <h5>HTML, CSS, JavaScript</h5>
-                            </br>テトリス風のゲームです．
-                        </figcaption>
-                    </a>
-                </figure>
-            </div>
-            <div class="child4">
-                <figure class="hover-parent">
-                    <a href="https://github.com/yuusc/processing_study/tree/master/bookshelf"><img class="figure-img" src="./images/bookshelf.png">
-                        <figcaption class="hover-mask">
-                            <h5>Proccesing, Java</h5>
-                            </br>書籍管理システムです．</br>SQLを使用しています．
-                        </figcaption>
-                    </a>
-                </figure>
-            </div>
-            <div class="child5">
-                <figure class="hover-parent">
-                    <a href="https://yuusc.github.io/desktop_clock/"><img class="figure-img" src="./images/clock.png">
-                        <figcaption class="hover-mask">
-                            <h5>HTML, CSS, JavaScript</h5>
-                            </br>筑波大学用の時間割ツールです．
-                        </figcaption>
-                    </a>
-                </figure>
-            </div>
-            <div class="child6">工事中</div>
-        </div>
-        </br>
-        </br>
-        <h2>ブログ</h2>
-        <div class="parent">
-            <div class="child1">
-                1
-            </div>
-            <div class="child2">
-                2
+            <div class="section">
+                <h2>ブログ</h2>
+                準備中</br>
+                <div class="parent">
+                    <div class="child1">
+                        <img src="error.jpg">
+                    </div>
+                    <div class="child2">
+                        <img src="error.jpg">
+                    </div>
+                    <div class="child3">
+                        <img src="error.jpg">
+                    </div>
+                    <div class="child4">
+                        <img src="error.jpg">
+                    </div>
+                    <div class="child5">
+                        <img src="error.jpg">
+                    </div>
+                    <div class="child6">
+                        <img src="error.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </main>
