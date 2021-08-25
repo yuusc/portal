@@ -40,3 +40,22 @@ a {
     color: white;
     text-align: center;
 }
+
+.section-parent {
+    width: 99%;
+    display: flex;
+    flex-flow: column;
+}
+
+.section {
+    width: 98%;
+    height: fit-content;
+    padding: 1em;
+    margin: 0.5em auto;
+    clear: both;
+}
+
+.subsection {
+    padding: 10px;
+    float: left;
+}

@@ -6,8 +6,8 @@ figure.hover-parent {
 }
 
 figcaption.hover-mask {
-    width: 250px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -25,7 +25,7 @@ figcaption.hover-mask {
 figcaption.hover-mask {
     opacity: 1;
     transition: all 0.6s ease;
-    left: -100%;
+    left: -200%;
 }
 
 figure.hover-parent:hover .hover-mask {

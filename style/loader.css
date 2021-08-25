@@ -91,6 +91,13 @@
     animation-delay: 0.2s;
 }
 
+.status {
+    color: palegreen;
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
 @-webkit-keyframes sk-cubeGridScaleDelay {
     0%,
     70%,
